@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>lab1 web page</title>
+    </head>
+
+    <body onload="main()">
+        <canvas id="webgl" width="400" height="400">
+        Please use a browser that supports "canvas"
+        </canvas>
+        <br>
+
+        <!-- <p id="numdot"> XXX</p> -->
+        <!-- <button type="button" id="green" >Green </button>
+        <button type="button" id="red"   >Red   </button> -->
+
+        <p>
+        <button type="button" id="clear" >Clear the Canvas </button>
+        <p>
+
+        <p style="font-family:verdana"> Shape Type: </p> 
+        <button type="button" id="pointButton">Point      </button>
+        <button type="button" id="triglButton">Triangle   </button>
+        <button type="button" id="circlButton">Circle     </button>
+        <p>
+
+        <p style="font-family:verdana"> Shape Color: <p>
+        Red   <input type="range" min="0" max="100" value="100" class="slider" id="redSlide"/>
+        Green <input type="range" min="0" max="100" value="100" class="slider" id="greSlide"/>
+        Blue  <input type="range" min="0" max="100" value="100" class="slider" id="bluSlide"/> 
+        <p>
+
+        <p style="font-family:verdana"> Shape Properties: </p>
+        Shape Size 
+            <input type="range" min="5" max="60" value="5" class="slider" id="sizeSlide"/> 
+        (Circle) Segment Count: 
+            <label id="numside">3</label>
+            <input type="range" min="3" max="30" value="5" class="slider" id="sideSlide"/> 
+        <p>
+        
+        <!-- BEYOND THE BASIC FEATURES-->
+        <p style="font-family:verdana"> EXTRA FEATURES <p>
+
+        Alpha <input type="range" min="0" max="100" value="100" class="slider" id="alpSlide"/> 
+        <p/>
+
+        Change Background Color to Shape Color:
+        <button type="button" id="bgButton">Change!</button>
+        <p/>
+
+
+        <!-- comment out ColoringBook -->
+        <!-- <label> Coloring Book: </label>
+        <select id="colorBook">
+            <option value="none"> None       </option>
+            <option value="happ"> Happy Face </option>
+            <option value="bear"> Teddy Bear </option>
+            <option value="sand"> The Beach  </option>
+        </select>
+        <button type="button" id="bookButton">Load this one!</button> -->
+
+
+        <script src="lib/webgl-utils.js"></script>
+        <script src="lib/webgl-debug.js"></script>
+        <script src="lib/cuon-utils.js"></script>
+        <script src="Triangle.js"></script>
+        <script src="Circle.js"></script>
+        <script src="Point.js"></script>
+        <script src="asg1.js"></script>
+    </body>
+</html>

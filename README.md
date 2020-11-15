@@ -1,5 +1,6 @@
 # PaintingProgram
 CSE160 asg1
 
-Open HTML file in new tab
-Yuo can also access this program by going to https://people.ucsc.edu/~srfulgha/lab1/asg1.html
+Access easily by going to the link below or by running thr html file on your local machine 
+
+https://people.ucsc.edu/~srfulgha/lab1/asg1.html
